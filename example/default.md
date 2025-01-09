@@ -38,16 +38,14 @@ FET には 3 本の端子が出ており、それぞれゲート (G)、ドレイ
     - 参照先: <span id="id"></span>
 -->
 
-<!-- 図 -->
+<!-- 図 (横並び) -->
+<div class="image-row">
 
 ![n チャネル型 FET](https://cdn-ak.f.st-hatena.com/images/fotolife/y/yamasy1549/20200808/20200808190103.png){#n_fet}
 
-<!-- ここまで図 -->
+![p チャネル型 FET](https://cdn-ak.f.st-hatena.com/images/fotolife/y/yamasy1549/20200808/20200808190107.png)
 
-<!-- 図 -->
-
-![p チャネル型 FET](https://cdn-ak.f.st-hatena.com/images/fotolife/y/yamasy1549/20200808/20200808190107.png){#p_fet}
-
+</div>
 <!-- ここまで図 -->
 
 ## 実験方法

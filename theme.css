@@ -27,3 +27,47 @@
 .abstract p{
   text-indent: 1em;
 }
+
+/* Image Row */
+
+.image-row{
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.image-row img{
+  width: 100%;
+}
+
+.image-row:has(> figure:nth-child(1)) figure{
+  width: 100%;
+}
+
+.image-row:has(> figure:nth-child(2)) figure{
+  width: calc((100% - 2em * 1) / 2);
+}
+
+.image-row:has(> figure:nth-child(3)) figure{
+  width: calc((100% - 2em * 2) / 3);
+}
+
+.image-row:has(> figure:nth-child(4)) figure{
+  width: calc((100% - 2em * 3) / 4);
+}
+
+.image-row:has(> figure:nth-child(5)) figure{
+  width: calc((100% - 2em * 4) / 5);
+}
+
+.image-row:has(> figure:nth-child(6)) figure{
+  width: calc((100% - 2em * 5) / 6);
+}
+
+.image-row:has(> figure:nth-child(7)) figure{
+  width: calc((100% - 2em * 6) / 7);
+}
+
+.image-row:has(> figure:nth-child(8)) figure{
+  width: calc((100% - 2em * 7) / 8);
+}
