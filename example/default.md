@@ -1,3 +1,7 @@
+---
+html:
+  page-counter: 'left' # true(default, center) / false / right / left が指定可能
+---
 # FET の特性
 
 <div class="author">

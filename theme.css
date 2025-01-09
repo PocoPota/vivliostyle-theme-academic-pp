@@ -3,6 +3,25 @@
 @import url(../@vivliostyle/theme-base/css/lib/prism/base.css);
 @import url(../@vivliostyle/theme-base/css/lib/prism/theme-okaidia.css);
 
+/* Page Counter */
+html[page-counter="true"]{
+  --vs-page--mbox-content-bottom-center: counter(page);
+}
+
+html[page-counter="false"]{
+  --vs-page--mbox-content-bottom-center: none;
+}
+
+html[page-counter="right"]{
+  --vs-page--mbox-content-bottom-center: none;
+  --vs-page--mbox-content-bottom-right-corner: counter(page);
+}
+
+html[page-counter="left"]{
+  --vs-page--mbox-content-bottom-center: none;
+  --vs-page--mbox-content-bottom-left-corner: counter(page);
+}
+
 /* Abstract */
 
 #abstract{
