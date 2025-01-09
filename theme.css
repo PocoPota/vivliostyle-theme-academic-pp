@@ -4,7 +4,8 @@
 @import url(../@vivliostyle/theme-base/css/lib/prism/theme-okaidia.css);
 
 /* Page Counter */
-html[page-counter="true"]{
+
+html[page-counter="true"], html[page-counter="default"], html[page-counter="center"]{
   --vs-page--mbox-content-bottom-center: counter(page);
 }
 
