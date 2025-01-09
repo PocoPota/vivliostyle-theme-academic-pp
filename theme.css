@@ -2,3 +2,28 @@
 @import url(../@vivliostyle/theme-academic/theme.css);
 @import url(../@vivliostyle/theme-base/css/lib/prism/base.css);
 @import url(../@vivliostyle/theme-base/css/lib/prism/theme-okaidia.css);
+
+/* Abstract */
+
+#abstract{
+  margin: 0 auto;
+}
+
+.abstract::before{
+  --vs--abstract-title: 'Abstract';
+  content: var(--vs--abstract-title);
+  display: block;
+  font-family: var(--vs--heading-font-family);
+  font-size: var(--vs--h2-font-size);
+  font-weight: bold;
+  text-align: center;
+}
+
+.abstract:lang(ja)::before{
+  --vs--abstract-title: '概要';
+  content: var(--vs--abstract-title);
+}
+
+.abstract p{
+  text-indent: 1em;
+}

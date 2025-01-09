@@ -7,6 +7,12 @@
 
 </div>
 
+<div class="abstract">
+
+This study explores the characteristics of field-effect transistors (FETs) and enhances practical skills in circuit fabrication using FETs. The research involves investigating the operational principles of semiconductors and pn junctions, emphasizing the functionality of n-channel and p-channel FETs. Static characteristics were analyzed by measuring the drain current ($I_{D}$) against gate-source voltage ($V_{GS}$) and drain-source voltage ($V_{DS}$), while dynamic characteristics examined the response to input signals and frequency. Key findings include the dependency of $I_{D}$ on $V_{GS}$ and $V_{DS}$, the identification of conditions leading to output distortion, and the frequency band over which voltage gain remains constant. The study calculated critical parameters like transconductance ($g_m$), drain resistance ($r_d$), and voltage gain ($\mu$). Results provide insights into FET behavior and its applications in electronic circuits.
+
+</div>
+
 ## 目的
 
 FET の特性を調査するとともに、FET を用いた回路の作製に習熟することを目的とする。
