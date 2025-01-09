@@ -44,3 +44,8 @@ Thumbs.db
 *.pid
 *.seed
 *.pid.lock
+
+# Vivliostyle
+.vivliostyle
+book.pdf
+book/
