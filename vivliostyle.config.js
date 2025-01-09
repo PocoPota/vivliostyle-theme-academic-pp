@@ -1,5 +1,5 @@
 module.exports = {
-  language: 'en',
+  language: 'ja',
   theme: [
     'node_modules/@vivliostyle/theme-base',
     'node_modules/@vivliostyle/theme-academic',
