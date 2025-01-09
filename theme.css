@@ -5,10 +5,6 @@
 
 /* Page Counter */
 
-html[page-counter="true"], html[page-counter="default"], html[page-counter="center"]{
-  --vs-page--mbox-content-bottom-center: counter(page);
-}
-
 html[page-counter="false"]{
   --vs-page--mbox-content-bottom-center: none;
 }
@@ -24,10 +20,6 @@ html[page-counter="left"]{
 }
 
 /* Pub Title */
-
-html[pub-title="true"], html[pub-title="default"], html[pub-title="left"]{
-  --vs-page--mbox-content-top-left: env(pub-title);
-}
 
 html[pub-title="false"]{
   --vs-page--mbox-content-top-left: none;
