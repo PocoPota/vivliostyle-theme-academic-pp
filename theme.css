@@ -45,13 +45,13 @@ html[pub-title="center"]{
 
 /* Abstract */
 
-#abstract{
+.abstract{
   margin: 0 auto;
 }
 
 .abstract::before{
-  --vs--abstract-title: 'Abstract';
-  content: var(--vs--abstract-title);
+  --vs-abstract-title: 'Abstract';
+  content: var(--vs-abstract-title);
   display: block;
   font-family: var(--vs--heading-font-family);
   font-size: var(--vs--h2-font-size);
@@ -60,8 +60,23 @@ html[pub-title="center"]{
 }
 
 .abstract:lang(ja)::before{
-  --vs--abstract-title: '概要';
-  content: var(--vs--abstract-title);
+  --vs-abstract-title: '概要';
+}
+
+html[abstract-title="false"] .abstract::before{
+  --vs-abstract-title: '';
+}
+
+html[abstract-title="en"] .abstract::before{
+  --vs-abstract-title: 'Abstract';
+}
+
+html[abstract-title="ja"] .abstract::before{
+  --vs-abstract-title: '概要';
+}
+
+.abstract::before{
+  content: var(--vs-abstract-title);
 }
 
 .abstract p{
