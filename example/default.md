@@ -1,6 +1,7 @@
 ---
 html:
-  page-counter: 'left' # true(default, center) / false / right / left が指定可能
+  page-counter: 'true' # true(default, center) / false / right / left が指定可能 
+  pub-title: 'true' # true(default, left) / false / right / center が指定可能 
 ---
 # FET の特性
 
