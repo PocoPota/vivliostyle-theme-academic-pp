@@ -79,10 +79,6 @@ html[abstract-title="ja"] .abstract::before{
   content: var(--vs-abstract-title);
 }
 
-.abstract p{
-  text-indent: 1em;
-}
-
 /* Image Row */
 
 .image-row{
