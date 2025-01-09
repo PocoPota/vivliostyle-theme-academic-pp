@@ -3,6 +3,21 @@
 @import url(../@vivliostyle/theme-base/css/lib/prism/base.css);
 @import url(../@vivliostyle/theme-base/css/lib/prism/theme-okaidia.css);
 
+:root{
+  
+  /* h3以下におけるセクション番号が正しくないバグに対する暫定的な解決
+  https://github.com/vivliostyle/themes/issues/138 */
+
+  --vs-section--root-counter-reset:
+    var(--vs-section--root-counter-sections,)
+    var(--vs-section--root-counter-sec-h1,)
+    var(--vs-section--root-counter-sec-h2,)
+    var(--vs-section--root-counter-sec-h3,)
+    var(--vs-section--root-counter-sec-h4,)
+    var(--vs-section--root-counter-sec-h5,)
+    var(--vs-section--root-counter-sec-h6,);
+}
+
 /* Page Counter */
 
 html[page-counter="false"]{
