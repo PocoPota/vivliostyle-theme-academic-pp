@@ -54,13 +54,14 @@ html[pub-title="center"]{
 
 .abstract{
   margin: 0 auto;
+  width: 90%;
 }
 
 .abstract::before{
   --vs-abstract-title: 'Abstract';
   content: var(--vs-abstract-title);
   display: block;
-  font-size: var(--vs--h2-font-size);
+  font-size: 1.2em;
   font-weight: bold;
   text-align: center;
 }
@@ -91,6 +92,11 @@ html[abstract-title="ja"] .abstract::before{
 
 .abstract::before{
   content: var(--vs-abstract-title);
+}
+
+.abstract p{
+  font-size: 9pt;
+  line-height: 1.5;
 }
 
 /* Image Row */
