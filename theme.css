@@ -60,10 +60,17 @@ html[pub-title="center"]{
   --vs-abstract-title: 'Abstract';
   content: var(--vs-abstract-title);
   display: block;
-  font-family: var(--vs--heading-font-family);
   font-size: var(--vs--h2-font-size);
   font-weight: bold;
   text-align: center;
+}
+
+html[section-font="serif"] .abstract::before{
+  --vs--section-font-family: var(--vs-font-family);
+}
+
+html[section-font="sans-serif"] .abstract::before{
+  --vs--section-font-family: var(--vs--heading-font-family);
 }
 
 .abstract:lang(ja)::before{
@@ -128,4 +135,15 @@ html[abstract-title="ja"] .abstract::before{
 
 .image-row:has(> figure:nth-child(8)) figure{
   width: calc((100% - 2em * 7) / 8);
+}
+
+/* Section Font */
+html[section-font="serif"] :is(h1, h2, h3, h4, h5, h6){
+  --vs--section-font-family: var(--vs-font-family);
+  font-family: var(--vs--section-font-family);
+}
+
+html[section-font="sans-serif"] :is(h1, h2, h3, h4, h5, h6){
+  --vs--section-font-family: var(--vs--heading-font-family);
+  font-family: var(--vs--section-font-family);
 }

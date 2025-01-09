@@ -3,6 +3,7 @@ html:
   page-counter: 'true' # true(default, center) / false / right / left が指定可能 
   pub-title: 'true' # true(default, left) / false / right / center が指定可能 
   abstract-title: 'true' # true(default) / false / en / ja が指定可能
+  section-font: 'serif' # sans-serif (default) / serif が指定可能
 ---
 # FET の特性
 
