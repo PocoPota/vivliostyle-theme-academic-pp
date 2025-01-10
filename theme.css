@@ -30,11 +30,6 @@ body[column="2"] img{
   max-width: 95%;
 }
 
-/* Column Span */
-body{
-  flex-flow: column;
-}
-
 h1, .author, .abstract, .keywords, .column-span{
   column-span: all;
 }
