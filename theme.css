@@ -197,3 +197,15 @@ html[section-font="sans-serif"] :is(h1, h2, h3, h4, h5, h6){
   --vs--section-font-family: var(--vs--heading-font-family);
   font-family: var(--vs--section-font-family);
 }
+
+/* Compact Text */
+
+html[conpact-text="true"]{
+  --vs-font-size: 9.5pt;
+  line-height: 1.5;
+  --vs--h2-font-size: 1.1em;
+  --vs-h2-margin-block: 0.3rem 0.4rem;
+  --vs--h3-font-size: 1em;
+  --vs--h3-margin-block: 0.3rem 0.4rem;
+  --vs--h4-font-size: 1em;
+}
