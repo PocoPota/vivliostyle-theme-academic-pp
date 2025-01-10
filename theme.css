@@ -200,7 +200,7 @@ html[section-font="sans-serif"] :is(h1, h2, h3, h4, h5, h6){
 
 /* Compact Text */
 
-html[conpact-text="true"]{
+html[compact-text="true"]{
   --vs-font-size: 9.5pt;
   line-height: 1.5;
   --vs--h2-font-size: 1.1em;
