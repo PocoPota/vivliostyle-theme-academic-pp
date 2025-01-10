@@ -20,14 +20,23 @@
 
 /* Colmun */
 
-html[column="2"]{
+body[column="2"]{
   column-count: 2;
   column-gap: 2em;
-  column-fill: auto;
+  column-fill: balance;
 }
 
-html[column="2"] img{
+body[column="2"] img{
   max-width: 95%;
+}
+
+/* Column Span */
+body{
+  flex-flow: column;
+}
+
+h1, .author, .abstract, .keywords, .column-span{
+  column-span: all;
 }
 
 /* Page Counter */
