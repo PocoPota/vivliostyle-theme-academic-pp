@@ -18,6 +18,14 @@
     var(--vs-section--root-counter-sec-h6,);
 }
 
+/* Colmun */
+
+html[column="2"]{
+  column-count: 2;
+  column-gap: 2em;
+  column-fill: auto;
+}
+
 /* Page Counter */
 
 html[page-counter="false"]{
@@ -96,7 +104,7 @@ html[abstract-title="ja"] .abstract::before{
 
 .abstract p{
   font-size: 9pt;
-  line-height: 1.5;
+  line-height: 1.3em;
 }
 
 /* Keywords */
