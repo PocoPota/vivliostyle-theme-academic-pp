@@ -20,6 +20,12 @@ This study explores the characteristics of field-effect transistors (FETs) and e
 
 </div>
 
+<div class="keywords">
+
+**Semiconductor**, **Field-effect transistor**, pn junction, n-channel FET, p-channel FET, Static characteristics
+
+</div>
+
 ## 目的
 
 FET の特性を調査するとともに、FET を用いた回路の作製に習熟することを目的とする。

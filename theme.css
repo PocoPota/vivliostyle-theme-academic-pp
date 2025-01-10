@@ -99,6 +99,28 @@ html[abstract-title="ja"] .abstract::before{
   line-height: 1.5;
 }
 
+/* Keywords */
+
+.keywords{
+  margin: 0.8em auto;
+  width: 83%;
+}
+
+.keywords p::before{
+  --vs-keywords-title: 'KEY WORDS: ';
+  content: var(--vs-keywords-title);
+  display: inline;
+  font-size: 9pt;
+  font-weight: bold;
+}
+
+.keywords p{
+  width: 100%;
+  font-size: 9pt;
+  text-indent: 0;
+  line-height: 1.5em;
+}
+
 /* Image Row */
 
 .image-row{
