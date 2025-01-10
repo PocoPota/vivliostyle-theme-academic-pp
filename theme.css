@@ -26,6 +26,10 @@ html[column="2"]{
   column-fill: auto;
 }
 
+html[column="2"] img{
+  max-width: 95%;
+}
+
 /* Page Counter */
 
 html[page-counter="false"]{
@@ -127,6 +131,12 @@ html[abstract-title="ja"] .abstract::before{
   font-size: 9pt;
   text-indent: 0;
   line-height: 1.5em;
+}
+
+/* Image */
+img{
+  max-width: 100%;
+  height: auto;
 }
 
 /* Image Row */
