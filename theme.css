@@ -28,7 +28,7 @@ body[column="2"]{
   column-fill: balance;
 }
 
-h1, .author, .abstract, .keywords, .column-span{
+h1, .author, .abstract, .keywords, .column-span, .author-simple{
   column-span: all;
 }
 
@@ -62,6 +62,15 @@ html[pub-title="right"]{
 html[pub-title="center"]{
   --vs-page--mbox-content-top-left: none;
   --vs-page--mbox-content-top-center: env(pub-title);
+}
+
+/* Author */
+
+.author-simple ul {
+  list-style: none;
+  text-align: right;
+  margin-block: var(--vs-spacing-rlh);
+  padding: 0;
 }
 
 /* Abstract */
