@@ -4,6 +4,8 @@
 @import url(../@vivliostyle/theme-base/css/lib/prism/theme-okaidia.css);
 
 :root{
+  --vs-theme--figure-img-max-height: 30cm;
+  --vs-theme--figure-img-max-width: 30cm;
   
   /* h3以下におけるセクション番号が正しくないバグに対する暫定的な解決
   https://github.com/vivliostyle/themes/issues/138 */
@@ -24,10 +26,6 @@ body[column="2"]{
   column-count: 2;
   column-gap: 2em;
   column-fill: balance;
-}
-
-body[column="2"] img{
-  max-width: 95%;
 }
 
 h1, .author, .abstract, .keywords, .column-span{
@@ -141,6 +139,15 @@ html[abstract-title="ja"] .abstract::before{
 img{
   max-width: 100%;
   height: auto;
+  --vs--figure-item-padding-inline: 0;
+}
+
+body[column="2"] img{
+  max-width: 95%;
+}
+
+body[column="2"] .image-row img{
+  max-width: 100%;
 }
 
 /* Image Row */
@@ -148,7 +155,12 @@ img{
 .image-row{
   display: flex;
   justify-content: space-between;
-  gap: 2em;
+  gap: 1em;
+  margin: 22.8px 0;
+}
+
+.image-row figure{
+  margin: 0;
 }
 
 .image-row img{
@@ -160,31 +172,31 @@ img{
 }
 
 .image-row:has(> figure:nth-child(2)) figure{
-  width: calc((100% - 2em * 1) / 2);
+  width: calc((100% - 1em * 1) / 2);
 }
 
 .image-row:has(> figure:nth-child(3)) figure{
-  width: calc((100% - 2em * 2) / 3);
+  width: calc((100% - 1em * 2) / 3);
 }
 
 .image-row:has(> figure:nth-child(4)) figure{
-  width: calc((100% - 2em * 3) / 4);
+  width: calc((100% - 1em * 3) / 4);
 }
 
 .image-row:has(> figure:nth-child(5)) figure{
-  width: calc((100% - 2em * 4) / 5);
+  width: calc((100% - 1em * 4) / 5);
 }
 
 .image-row:has(> figure:nth-child(6)) figure{
-  width: calc((100% - 2em * 5) / 6);
+  width: calc((100% - 1em * 5) / 6);
 }
 
 .image-row:has(> figure:nth-child(7)) figure{
-  width: calc((100% - 2em * 6) / 7);
+  width: calc((100% - 1em * 6) / 7);
 }
 
 .image-row:has(> figure:nth-child(8)) figure{
-  width: calc((100% - 2em * 7) / 8);
+  width: calc((100% - 1em * 7) / 8);
 }
 
 /* Section Font */
