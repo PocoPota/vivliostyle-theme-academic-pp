@@ -148,7 +148,6 @@ html[abstract-title="ja"] .abstract::before{
 img{
   max-width: 100%;
   height: auto;
-  --vs--figure-item-padding-inline: 0;
 }
 
 body[column="2"] img{
@@ -157,6 +156,7 @@ body[column="2"] img{
 
 body[column="2"] .image-row img{
   max-width: 100%;
+  --vs--figure-item-padding-inline: 0;
 }
 
 /* Image Row */
