@@ -1,4 +1,4 @@
-# Vivliostyle Theme Academic Pp
+# Vivliostyle Theme Academic PP
 
 [![npm: version](https://flat.badgen.net/npm/v/vivliostyle-theme-academic-pp)](https://npmjs.com/package/vivliostyle-theme-academic-pp)
 [![npm: total downloads](https://flat.badgen.net/npm/dt/vivliostyle-theme-academic-pp)](https://npmjs.com/package/vivliostyle-theme-academic-pp)
@@ -55,7 +55,6 @@ vivliostyle-theme-academic-pp
 ├── README.md
 ├── example
 │   ├── assets                            // auto generated
-│   │   └── Logo (Mark + Type).png        // auto generated
 │   └── default.md                        // 🖋
 ├── package.json
 ├── theme.css                             // 🖋
