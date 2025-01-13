@@ -76,7 +76,7 @@ html[pub-title="center"]{
 /* Abstract */
 
 .abstract{
-  margin: 0 auto;
+  margin: 1em auto;
   width: 90%;
 }
 
@@ -125,7 +125,7 @@ html[abstract-title="ja"] .abstract::before{
 /* Keywords */
 
 .keywords{
-  margin: 0.8em auto;
+  margin: 1em auto;
   width: 83%;
 }
 
@@ -154,11 +154,11 @@ body:not([column]) figure img{
 
 body[column="2"] img{
   max-width: 95%;
+  --vs--figure-item-padding-inline: 0;
 }
 
 body[column="2"] .image-row img{
   max-width: 100%;
-  --vs--figure-item-padding-inline: 0;
 }
 
 /* Image Row */
