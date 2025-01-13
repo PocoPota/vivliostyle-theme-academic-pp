@@ -6,6 +6,24 @@
 
 An academic theme for Vivliostyle
 
+<div style="display:flex; justify-content: space-between;">
+  <img src="./example/assets/sample1.jpg" width="49%">
+  <img src="./example/assets/sample2.jpg" width="49%">
+</div>
+
+## Functions
+
+- Two-Column Layout
+- Image Row
+- Abstract
+- KeyWords
+- Enable / Disable Page Counter
+- Enanle / Disable Abstract Title
+- Font Selection
+- Compact Mode
+
+See Feature Details: (In Progress)
+
 ## Use
 
 In `vivliostyle.config.js`:
@@ -63,7 +81,11 @@ You can specify your CSS file and manuscript file for preview in vivliostyle.con
 ```js
 module.exports = {
   language: 'en',
-  theme: ['node_modules/@vivliostyle/theme-base', '.'],
+    theme: [
+    'node_modules/@vivliostyle/theme-base',
+    'node_modules/@vivliostyle/theme-academic',
+    '.'
+  ],
   entry: [
       'example/default.md',
       // and more...
