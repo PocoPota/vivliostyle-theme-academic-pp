@@ -4,6 +4,9 @@
   "version": "0.1.0",
   "author": "PocoPota <contact@pocopota.com>",
   "main": "theme.css",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "vivliostyle build",
     "preview": "vivliostyle preview",
