@@ -145,9 +145,11 @@ html[abstract-title="ja"] .abstract::before{
 }
 
 /* Image */
-img{
-  max-width: 100%;
-  height: auto;
+
+body:not([column="2"]) figure img,
+body:not([column]) figure img{
+  max-width: 9cm;
+  max-height: 15cm
 }
 
 body[column="2"] img{
@@ -180,32 +182,8 @@ body[column="2"] .image-row img{
   width: 100%;
 }
 
-.image-row:has(> figure:nth-child(2)) figure{
-  width: calc((100% - 1em * 1) / 2);
-}
-
-.image-row:has(> figure:nth-child(3)) figure{
-  width: calc((100% - 1em * 2) / 3);
-}
-
-.image-row:has(> figure:nth-child(4)) figure{
-  width: calc((100% - 1em * 3) / 4);
-}
-
-.image-row:has(> figure:nth-child(5)) figure{
-  width: calc((100% - 1em * 4) / 5);
-}
-
-.image-row:has(> figure:nth-child(6)) figure{
-  width: calc((100% - 1em * 5) / 6);
-}
-
-.image-row:has(> figure:nth-child(7)) figure{
-  width: calc((100% - 1em * 6) / 7);
-}
-
-.image-row:has(> figure:nth-child(8)) figure{
-  width: calc((100% - 1em * 7) / 8);
+.image-row:has(> figure:nth-child(n+2)) figure{
+  width: calc((100% - 1em * (n - 1)) / n);
 }
 
 /* Section Font */
