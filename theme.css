@@ -18,6 +18,9 @@
     var(--vs-section--root-counter-sec-h4,)
     var(--vs-section--root-counter-sec-h5,)
     var(--vs-section--root-counter-sec-h6,);
+
+    widows: 1;
+    orphans: 1;
 }
 
 /* Colmun */
