@@ -10,7 +10,7 @@ body:
 ---
 # FET の特性
 
-<div class="author-simple">
+<div class="author-list">
 
 - 2020/08/10
 - びぶりお　ゆたか

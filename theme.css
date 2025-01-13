@@ -28,7 +28,7 @@ body[column="2"]{
   column-fill: balance;
 }
 
-h1, .author, .abstract, .keywords, .column-span, .author-simple{
+h1, .author, .abstract, .keywords, .column-span, .author-list, .author-details{
   column-span: all;
 }
 
@@ -66,7 +66,7 @@ html[pub-title="center"]{
 
 /* Author */
 
-.author-simple ul {
+.author-list ul {
   list-style: none;
   text-align: right;
   margin-block: var(--vs-spacing-rlh);
