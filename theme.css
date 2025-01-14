@@ -21,6 +21,8 @@
 
     widows: 1;
     orphans: 1;
+
+    --vs--lists-margin-block: 0.5rem;
 }
 
 /* Colmun */
