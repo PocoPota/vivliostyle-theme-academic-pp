@@ -4,8 +4,6 @@
 @import url(../@vivliostyle/theme-base/css/lib/prism/theme-okaidia.css);
 
 :root{
-  --vs-theme--figure-img-max-height: 30cm;
-  --vs-theme--figure-img-max-width: 30cm;
   
   /* h3以下におけるセクション番号が正しくないバグに対する暫定的な解決
   https://github.com/vivliostyle/themes/issues/138 */
@@ -153,8 +151,7 @@ html[abstract-title="ja"] .abstract::before{
 
 body:not([column="2"]) figure img,
 body:not([column]) figure img{
-  max-width: 9cm;
-  max-height: 15cm
+  --vs-theme--figure-img-max-width: 100%;
 }
 
 body[column="2"] img{
