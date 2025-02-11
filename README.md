@@ -24,6 +24,12 @@ An academic theme for Vivliostyle
 
 See Feature Details: (In Progress)
 
+## Docs
+
+Here's the document link! ↓
+
+https://pocopota.github.io/vs-theme-academic-pp-docs/
+
 ## Use
 
 In `vivliostyle.config.js`:
