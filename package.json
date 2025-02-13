@@ -1,7 +1,7 @@
 {
   "name": "vivliostyle-theme-academic-pp",
   "description": "An academic theme for Vivliostyle",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "PocoPota <contact@pocopota.com>",
   "main": "theme.css",
   "publishConfig": {
